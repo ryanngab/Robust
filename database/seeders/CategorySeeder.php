@@ -16,11 +16,11 @@ class CategorySeeder extends Seeder
     {
         //
         \App\Models\Category::create([
-            'name' => 'Minuman non alkohol',
+            'name' => 'non alkohol',
         ]);
 
         \App\Models\Category::create([
-            'name' => 'Minuman berakohol',
+            'name' => 'berakohol',
         ]);
 
         \App\Models\Category::create([
@@ -28,15 +28,15 @@ class CategorySeeder extends Seeder
         ]);
 
         \App\Models\Category::create([
-            'name' => 'Minuman',
+            'name' => 'Snack',
         ]);
 
         \App\Models\Category::create([
-            'name' => 'Minuman',
+            'name' => 'egg',
         ]);
 
         \App\Models\Category::create([
-            'name' => 'Minuman',
+            'name' => 'Human meat',
         ]);
     }
 }
